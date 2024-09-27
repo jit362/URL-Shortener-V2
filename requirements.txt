@@ -1,4 +1,4 @@
-aiohttp==3.8.1 --prefer-binary
+aiohttp==3.8.5 --prefer-binary
 pymongo[srv]==3.12.3
 motor==2.5.1
 Pyrogram==2.0.106
