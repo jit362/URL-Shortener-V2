@@ -31,15 +31,11 @@ user_commands = [
     "me",
 ]
 avl_web = [
-    "droplink.co",
-    "gplinks.in",
-    "tnlink.in",
-    "za.gl",
-    "du-link.in",
-    "viplink.in",
-    "shorturllink.in",
-    "shareus.in",
-    "earnspace.in",
+    "indishort.live",
+    "linkpays.in",
+    "gurujiurl.com",
+    "adrinolinks.in",
+    "shareus.io",
 ]
 
 avl_web1 = "".join(f"- {i}\n" for i in avl_web)
@@ -85,7 +81,7 @@ async def help_command(c, m: Message):
         firstname=temp.FIRST_NAME,
         username=temp.BOT_USERNAME,
         repo=SOURCE_CODE,
-        owner="@ask_admin001",
+        owner="@jit362",
     )
 
     if WELCOME_IMAGE:
